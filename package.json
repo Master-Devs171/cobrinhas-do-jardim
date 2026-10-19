@@ -1,0 +1,10 @@
+{
+  "name": "cobrinhas-do-jardim",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Jogo infantil de cobrinhas com editor de personagens",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test-cobrinhas.cjs && node test-cobrinhas-ui.cjs"
+  }
+}
