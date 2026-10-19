@@ -1,14 +1,14 @@
 {
   "id": "cobrinhas",
   "name": "Cobrinhas do Jardim",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "runtime": "sandbox",
   "entry": "index.html",
   "category": "explore",
   "age": "5+",
   "cover": "cover.svg",
   "description": "Come frutas, cresce e faz as cobrinhas do computador chocar contigo para recolher os seus pontos.",
-  "size": "146 KB",
+  "size": "155 KB",
   "multiplayer": false,
   "offline": true,
   "assets": [
@@ -22,6 +22,8 @@
     "choices.js",
     "progress.js",
     "journey-ui.js",
+    "lobby.css",
+    "lobby.js",
     "standalone-storage.js"
   ],
   "permissions": [
