@@ -1,0 +1,2 @@
+// Standalone-only adapter. The DinoPlay contribution uses the platform SDK instead.
+(()=>{'use strict';const prefix='cobrinhas-garden-v1:';window.GardenSave=Object.freeze({async get(key){if(!/^[a-z-]{1,30}$/.test(key))throw Error('Invalid game key');const raw=localStorage.getItem(prefix+key);return raw?JSON.parse(raw):null;},async set(key,value){if(!/^[a-z-]{1,30}$/.test(key))throw Error('Invalid game key');localStorage.setItem(prefix+key,JSON.stringify(value));}});})();
