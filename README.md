@@ -31,3 +31,9 @@ Preparado para [Rjcferreira/dino-color-quiz](https://github.com/Rjcferreira/dino
 ## Licença
 
 MIT para o código e as ilustrações SVG deste jogo. Emojis apresentados pela fonte do sistema.
+
+## Versão 1.4.0
+
+Movimento interpolado, segmentos do corpo em cache, desenho limitado à área visível e arena sem redesenho contínuo nos menus. Editor dividido em Corpo, Cara, Magia e Bandeira; menus adaptados a PC e telemóvel, pausa compacta e classificação recolhível.
+
+Verificado no navegador em 320 × 568, 390 × 844, 844 × 390 e PC. Testes de regras e interface simulada passaram. Toque físico e modo avião continuam pendentes.
