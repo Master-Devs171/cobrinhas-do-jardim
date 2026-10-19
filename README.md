@@ -1,47 +1,41 @@
-# Cobrinhas do Jardim 🐛🌼
+# Cobrinhas do Jardim
 
-Um jogo infantil de cobrinhas com frutas, cores suaves e um editor para criar personagens à tua maneira.
+![Capa](cover.jpg)
 
-**[Jogar online](https://master-devs171.github.io/cobrinhas-do-jardim/)**
+[Jogar online](https://master-devs171.github.io/cobrinhas-do-jardim/?v=2.1.0) · [Contribuição para DinoPlay](https://github.com/Rjcferreira/dino-color-quiz/pull/1)
 
-## Como jogar
+Jogo infantil (5+) para DinoPlay, versão 2.1.0, com 12 adversárias do computador. Arena azul, cobrinhas curtas e gordinhas, crescimento em comprimento e grossura, câmara progressiva e comida grande. Bater na borda termina a partida.
 
-- Come a comida do chão para crescer.
-- Faz as adversárias do computador baterem no teu corpo e apanha os pontos que deixam.
-- A cabeça tocar na borda elimina a cobra e termina a tua partida.
-- Usa as setas/WASD, rato, arrasta no ecrã ou joystick. Espaço ou ⚡ acelera.
-- Abre 🎨 para escolher cores, padrões, olhos, bocas, acessórios, bandeiras e rastos.
+## Jogar
 
-Arena 4800 × 4800, quatro zonas, 12 adversárias e 1000 peças de comida. Sem multiplayer online, publicidade ou rastreadores.
+Rato, toque/joystick ou setas/WASD para virar. Espaço ou botão de raio para acelerar. Apanha frutas e os pontos deixados por outras cobras. Ajudas temporárias: íman (12 s), binóculos (12 s) e sapatos velozes (8 s).
 
-## Executar e testar
+## Personalizar e descobrir
 
-Abre index.html no navegador. Não precisa de instalação nem dependências remotas.
+Oficina com cartões, cores, padrões, olhos, bocas, acessórios, bandeiras e rastos. Oito aventuras finitas, níveis e álbum de autocolantes. Loja de quatro skins por estrelas virtuais obtidas nas aventuras. Roda gratuita com quatro skins, sem repetições, apostas, anúncios ou pagamentos. As opções base do editor estão sempre disponíveis. Sem prazos nem sequências diárias.
+
+## Integração e privacidade
+
+- Runtime sandbox; recorde, visual e progresso usam apenas DinoPlay.storage na app.
+- Todos os recursos são locais e constam do manifesto; nenhuma dependência remota.
+- Sem multiplayer online, contas próprias, publicidade, pagamentos, chat ou telemetria.
+- Pausa ao suspender ou abrir painéis; respeita movimento reduzido.
+- Esta versão autónoma guarda apenas o progresso do jogo no armazenamento local do navegador. O adaptador não integra a contribuição DinoPlay.
+
+## Capa e licença
+
+Capa local cover.jpg: 640 × 400, preparada para o cartão do catálogo. Ilustração criada para este projeto com a ferramenta de geração de imagens da OpenAI; sem utilização de fotografias ou dados pessoais. Código e SVG do projeto disponibilizados sob MIT; a capa é incluída para distribuição com o jogo. Os emojis são apresentados pela fonte do sistema.
+
+## Verificação
+
+Na raiz DinoPlay:
 
 ```sh
-npm test
+node scripts/validate-catalog.mjs
+node scripts/test-cobrinhas.cjs
+node scripts/test-cobrinhas-ui.cjs
+node scripts/test-cobrinhas-progress.cjs
+node scripts/test-cobrinhas-powers.cjs
 ```
 
-O teste de UI usa DOM/canvas simulados. A verificação visual e de toque num telemóvel real está pendente.
-
-## Contribuição para DinoPlay
-
-Preparado para [Rjcferreira/dino-color-quiz](https://github.com/Rjcferreira/dino-color-quiz), usando o runtime sandbox e o SDK autorizado na versão integrada. Esta edição autónoma guarda apenas progresso do jogo, visual e recorde no armazenamento local do navegador. Na versão integrada, usa exclusivamente o SDK DinoPlay para esses dados.
-
-## Licença
-
-MIT para o código e as ilustrações SVG deste jogo. Emojis apresentados pela fonte do sistema.
-
-## Versão 1.4.0
-
-Movimento interpolado, segmentos do corpo em cache, desenho limitado à área visível e arena sem redesenho contínuo nos menus. Editor dividido em Corpo, Cara, Magia e Bandeira; menus adaptados a PC e telemóvel, pausa compacta e classificação recolhível.
-
-Verificado no navegador em 320 × 568, 390 × 844, 844 × 390 e PC. Testes de regras e interface simulada passaram. Toque físico e modo avião continuam pendentes.
-
-## Aventuras e recompensas (1.5.0)
-
-Oito tarefas finitas e sem prazo, estrelas, níveis, álbum de autocolantes e quatro skins especiais. As recompensas são fixas e só podem ser recebidas uma vez. Não existem sequências diárias, contagens decrescentes, compras, roletas ou sorteios. O editor base continua disponível.
-
-As tarefas contam fruta recolhida, zonas exploradas e padrões guardados na oficina. O progresso é preservado entre partidas.
-
-Teste adicional: node scripts/test-cobrinhas-progress.cjs (na versão autónoma, node test-cobrinhas-progress.cjs).
+Regras, bordas, crescimento, colisões, ajudas, loja, saldo, prémios únicos e recuperação de progresso testados. Interface verificada no navegador em PC, 320 × 568, 390 × 844 e 844 × 390. Toque em telemóvel físico e modo avião continuam pendentes; os testes de DOM/canvas não substituem essas verificações.
