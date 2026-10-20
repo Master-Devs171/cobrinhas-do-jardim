@@ -2,9 +2,9 @@
 
 ![Capa](cover.jpg)
 
-[Jogar online](https://master-devs171.github.io/cobrinhas-do-jardim/?v=2.1.0) · [Contribuição para DinoPlay](https://github.com/Rjcferreira/dino-color-quiz/pull/1)
+[Jogar online](https://master-devs171.github.io/cobrinhas-do-jardim/?v=3.0.0) · [Contribuição para DinoPlay](https://github.com/Rjcferreira/dino-color-quiz/pull/1)
 
-Jogo infantil (5+) para DinoPlay, versão 2.1.0, com 12 adversárias do computador. Arena azul, cobrinhas curtas e gordinhas, crescimento em comprimento e grossura, câmara progressiva e comida grande. Bater na borda termina a partida.
+Jogo infantil (5+) para DinoPlay, versão 3.0.0, com 12 adversárias do computador. Arena azul, cobrinhas curtas e gordinhas, crescimento em comprimento e grossura, câmara progressiva e comida grande. Bater na borda termina a partida.
 
 ## Jogar
 
@@ -24,7 +24,7 @@ Oficina com cartões, cores, padrões, olhos, bocas, acessórios, bandeiras e ra
 
 ## Capa e licença
 
-Capa local cover.jpg: 640 × 400, preparada para o cartão do catálogo. Ilustração criada para este projeto com a ferramenta de geração de imagens da OpenAI; sem utilização de fotografias ou dados pessoais. Código e SVG do projeto disponibilizados sob MIT; a capa é incluída para distribuição com o jogo. Os emojis são apresentados pela fonte do sistema.
+Capa local cover.jpg: 640 × 400, preparada para o cartão do catálogo. Ilustração criada para este projeto com a ferramenta de geração de imagens da OpenAI; sem utilização de fotografias ou dados pessoais. Código e SVG do projeto disponibilizados sob MIT; a capa é incluída para distribuição com o jogo. Os ícones são SVG originais locais, partilhados pelos menus e pelo canvas.
 
 ## Verificação
 
@@ -39,3 +39,7 @@ node scripts/test-cobrinhas-powers.cjs
 ```
 
 Regras, bordas, crescimento, colisões, ajudas, loja, saldo, prémios únicos e recuperação de progresso testados. Interface verificada no navegador em PC, 320 × 568, 390 × 844 e 844 × 390. Toque em telemóvel físico e modo avião continuam pendentes; os testes de DOM/canvas não substituem essas verificações.
+
+## Ícones locais (3.0.0)
+
+40 ilustrações SVG originais para navegação, frutas, ajudas e acessórios. Não dependem de fontes de emoji, CDN ou bibliotecas remotas. icons.js partilha os mesmos desenhos com os menus e a arena, mantendo os dados de progresso compatíveis. Todos os SVG constam do manifesto offline.
