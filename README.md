@@ -1,8 +1,6 @@
 # Cobrinhas do Jardim
 
-![Capa](cover.jpg)
-
-[Jogar online](https://master-devs171.github.io/cobrinhas-do-jardim/?v=3.0.0) · [Contribuição para DinoPlay](https://github.com/Rjcferreira/dino-color-quiz/pull/1)
+![Capa de Cobrinhas do Jardim](cover.jpg)
 
 Jogo infantil (5+) para DinoPlay, versão 3.0.0, com 12 adversárias do computador. Arena azul, cobrinhas curtas e gordinhas, crescimento em comprimento e grossura, câmara progressiva e comida grande. Bater na borda termina a partida.
 
@@ -20,7 +18,7 @@ Oficina com cartões, cores, padrões, olhos, bocas, acessórios, bandeiras e ra
 - Todos os recursos são locais e constam do manifesto; nenhuma dependência remota.
 - Sem multiplayer online, contas próprias, publicidade, pagamentos, chat ou telemetria.
 - Pausa ao suspender ou abrir painéis; respeita movimento reduzido.
-- Esta versão autónoma guarda apenas o progresso do jogo no armazenamento local do navegador. O adaptador não integra a contribuição DinoPlay.
+- A versão autónoma usa um adaptador local próprio, excluído desta contribuição.
 
 ## Capa e licença
 
@@ -69,3 +67,6 @@ Movimento: a cauda segue o percurso real da cabeça por distância percorrida, i
 4.3.0 — Menu principal com botões laterais, nível/moedas no topo, cobra ao centro e botão Jogar em baixo. Presente/Receber usam aventuras concluídas; Moedas grátis abre objetivos com prémios, sem anúncios. Ícones PNG locais de [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji), licença MIT em menu-icons/LICENSE.txt; roda e cobra usam os gráficos existentes.
 
 4.4.0 — Presentes temporizados (400 moedas/5 min e 300/hora), preferências de música/som/câmara, quatro modos de toque, ajuda/créditos e perfil editável com estatísticas registadas. Áudio sintetizado original, sem ficheiros externos. Progresso e contagens guardados; os temporizadores continuam fora do jogo.
+
+## 4.5.0 — Visual arcade
+Azul profundo, detalhes ciano/menta, painéis simplificados e tipografia mais sóbria. Textos de pontuação, classificação, pausa e continuação mais diretos. Mantém os controlos, progresso e conteúdo do jogo.
