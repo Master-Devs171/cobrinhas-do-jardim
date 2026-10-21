@@ -70,7 +70,10 @@
     "options.js",
     "icons/coin.svg",
     "reference-ui.js",
-    "reference.css"
+    "reference.css",
+    "icons/diamond.svg",
+    "icons/puzzle.svg",
+    "icons/wave.svg"
   ],
   "permissions": [
     "storage"
